@@ -5,7 +5,7 @@ import axios from 'axios'
 
 axios.defaults.baseURL = 'https://w3farid.cfapps.io'
 axios.defaults.headers.common['Content-Type'] = 'application/json'
-// axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
 axios.defaults.headers.common['Accept'] = 'application/json'
 
 axios.get('/')
